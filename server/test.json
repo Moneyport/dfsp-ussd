@@ -1,0 +1,40 @@
+{
+  "implementation": "dfsp-ussd",
+  "repl": false,
+  "console": false,
+  "log": false,
+  "debug": true,
+  "workDir": "./tmp",
+  "masterBus": {
+    "logLevel": "error",
+    "socket": "dfsp-ussd"
+  },
+  "workerBus": {
+    "logLevel": "error"
+  },
+  "performance": {
+    "id": "dfsp-ussd",
+    "influx": {
+      "host": "influxdb",
+      "port": 4444
+    },
+    "test": true
+  },
+  "ussd": {
+     "shortCodes": {
+       "*123#": "menu/home"
+     },
+     "wrongInputState": "menu/error/wrongInput",
+     "timeOut": 60,
+     "expireRule": "refresh",
+     "defaultPhone": "",
+     "defaultShortCode": "*123#"
+  },
+  "cache": {
+    "storage": "memory",
+    "encoding": "json",
+    "checkFrequency": 1000,
+    "defaultTTL": 3600
+  },
+  "db": false
+}

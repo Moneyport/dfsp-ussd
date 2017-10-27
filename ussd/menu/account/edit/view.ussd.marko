@@ -1,0 +1,7 @@
+Select which action you would like to take:
+<br/>
+<var name="ind" value=0 />
+<br/><a id="0" href="menu/home">0. Home</a>
+<br/><a id="${++ind}" href="back">${ind}. Back</a>
+<if test="params.user.isSignatory"><br/><a id="${++ind}" href="./name">${ind}. Account Name</a></if>
+<if test="!params.user.isDefault && params.user.sourceAccountType === 'mWallet'"><br/><a id="${++ind}" href="./isDefault/confirm">${ind}. Primary Account Status</a></if>

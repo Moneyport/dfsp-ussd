@@ -1,0 +1,62 @@
+{
+  "name": "@leveloneproject/dfsp-ussd",
+  "version": "0.3.0",
+  "description": "DFSP ussd demo",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "ut-changelog",
+    "check": "ut-check",
+    "circleci:build": "ut-circleci-build",
+    "cover": "ut-cover",
+    "gitlab": "ut-gitlab",
+    "jenkins": "ut-jenkins",
+    "lint": "ut-lint .",
+    "lint-js": "ut-lint-js .",
+    "pm2": "pm2 start pm2.json",
+    "pm2-show": "pm2 show",
+    "pm2-stop": "pm2 stop pm2.json",
+    "postpublish": "ut-postpublish",
+    "postversion": "ut-postversion",
+    "precommit": "ut-precommit",
+    "prepublish": "ut-prepublish",
+    "prepush": "ut-prepush",
+    "pretest": "ut-pretest",
+    "preversion": "ut-preversion",
+    "release": "ut-release",
+    "start": "node .",
+    "test": "ut-test",
+    "version": "ut-version"
+  },
+  "dependencies": {
+    "joi": "9.0.4",
+    "ut-bus": "^5.4.9",
+    "ut-port-httpserver": "~8.7.1",
+    "ut-port-jsonrpc": "^5.5.3",
+    "ut-port-script": "^5.4.4",
+    "ut-port-postgres": "^5.7.0",
+    "ut-ussd": "^6.5.4",
+    "ut-cache": "^5.5.0",
+    "ut-port-performance": "^5.4.6",
+    "ut-port-console": "~6.2.13",
+    "ut-run": "^6.3.1",
+    "pm2": "2.0.12"
+  },
+  "devDependencies": {
+    "blue-tape": "1.0.0",
+    "tap-xunit": "1.4.0",
+    "ut-tools": "^5.10.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LevelOneProject/dfsp-ussd.git"
+  },
+  "engines": {
+    "node": ">=4.4.7",
+    "npm": ">=3.10.6"
+  },
+  "author": "Stamen Peev <stamen.peev@softwaregroup-bg.com>",
+  "publishConfig": {
+    "registry": "https://modusbox.jfrog.io/modusbox/api/npm/level1-npm-release"
+  },
+  "license": "UNLICENSED"
+}
