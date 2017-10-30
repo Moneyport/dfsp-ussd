@@ -77,5 +77,5 @@
   "publishConfig": {
     "registry": "https://modusbox.jfrog.io/modusbox/api/npm/level1-npm-release"
   },
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "Apache-2.0"
 }
