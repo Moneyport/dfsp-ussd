@@ -1,5 +1,5 @@
 {
-  "name": "@leveloneproject/dfsp-ussd",
+  "name": "@mojaloop/dfsp-ussd",
   "version": "1.0.0-quotes.42",
   "description": "DFSP ussd demo",
   "main": "index.js",
@@ -67,7 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:LevelOneProject/dfsp-ussd.git"
+    "url": "git@github.com:mojaloop/dfsp-ussd.git"
   },
   "engines": {
     "node": ">=4.4.7",
