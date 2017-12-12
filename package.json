@@ -1,6 +1,6 @@
 {
   "name": "@mojaloop/dfsp-ussd",
-  "version": "1.0.0-quotes.42",
+  "version": "1.0.0",
   "description": "DFSP ussd demo",
   "main": "index.js",
   "scripts": {
@@ -48,15 +48,15 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
-    "@leveloneproject/dfsp-account": "0.x",
-    "@leveloneproject/dfsp-api": ">=1.0.0-quotes.61 <1.0.0",
-    "@leveloneproject/dfsp-directory": "0.x",
-    "@leveloneproject/dfsp-identity": "0.x",
-    "@leveloneproject/dfsp-ledger": ">=2.0.0-quotes.21 <2.0.0",
-    "@leveloneproject/dfsp-mock": ">=1.0.0-quotes.18 <1.0.0",
-    "@leveloneproject/dfsp-rule": "0.x",
-    "@leveloneproject/dfsp-subscription": "0.x",
-    "@leveloneproject/dfsp-transfer": "0.x",
+    "@mojaloop/dfsp-account": "0.x",
+    "@mojaloop/dfsp-api": "1.x",
+    "@mojaloop/dfsp-directory": "0.x",
+    "@mojaloop/dfsp-identity": "0.x",
+    "@mojaloop/dfsp-ledger": "2.x",
+    "@mojaloop/dfsp-mock": "1.x",
+    "@mojaloop/dfsp-rule": "0.x",
+    "@mojaloop/dfsp-subscription": "0.x",
+    "@mojaloop/dfsp-transfer": "0.x",
     "blue-tape": "1.0.0",
     "supertest": "^3.0.0",
     "tap-xunit": "1.4.0",
@@ -74,8 +74,5 @@
     "npm": ">=3.10.6"
   },
   "author": "Stamen Peev <stamen.peev@softwaregroup-bg.com>",
-  "publishConfig": {
-    "registry": "https://modusbox.jfrog.io/modusbox/api/npm/level1-npm-release"
-  },
   "license": "Apache-2.0"
 }
