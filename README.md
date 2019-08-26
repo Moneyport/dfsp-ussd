@@ -1,4 +1,8 @@
-# DFSP-USSD service
+# [DEPRECATED] DFSP-USSD service
+
+## Deprecation Notice
+
+The DFSP-USSD service was deprecated as of January 2018. This service is no longer maintained as it is no longer in the scope of the Mojaloop OSS community. There are currently no alternatives to simulate USSD behaviour, however for other Mojaloop DFSP simulator needs, refer to the general [Simulator](https://github.com/mojaloop/simulator).
 
 ## Summary ##
 
